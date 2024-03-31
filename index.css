@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    border:2px solid green;
+}
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#000;
+    color:#eee;
+    font-family:'Spartan',sans-serif;
+    font-size: 12px;
+}
+
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+header{
+    width:1140px;
+    max-width:80%;
+    margin:auto;
+    display: flex;
+    align-items:center;
+}
+
+header > nav > a{
+    margin-right:40px
+
+}
+
+.item img{
+   height:1080px;
+   width:1920px;
+}
