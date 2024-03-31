@@ -13,3 +13,5 @@ function Book(title,author,pages,read){
 const Book1 = new Book("The fisherman", "David Chukwurah" , 222, "Not read");
 
 Book1.report();
+
+var bam;
